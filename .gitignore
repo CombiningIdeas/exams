@@ -4,3 +4,6 @@
 *.json*
 *.rar*
 *.zip*
+.idea/
+cmake-build-debug
+*.txt
