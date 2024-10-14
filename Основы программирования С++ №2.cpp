@@ -1,4 +1,4 @@
-//#include <iostream>
+п»ї//#include <iostream>
 //using namespace std;
 //
 //using elementType = int;
@@ -13,15 +13,15 @@
 //{
 //	setlocale(LC_ALL, "Russian");
 //	srand(static_cast<unsigned int>(time(nullptr)));
-//	/* 2. Дан массив A размера N. Вывести его элементы в следующем 
-//	порядке: A1, A2, AN, AN–1, A3, A4, AN–2, AN–3, …  */
+//	/* 2. Р”Р°РЅ РјР°СЃСЃРёРІ A СЂР°Р·РјРµСЂР° N. Р’С‹РІРµСЃС‚Рё РµРіРѕ СЌР»РµРјРµРЅС‚С‹ РІ СЃР»РµРґСѓСЋС‰РµРј 
+//	РїРѕСЂСЏРґРєРµ: A1, A2, AN, ANвЂ“1, A3, A4, ANвЂ“2, ANвЂ“3, вЂ¦  */
 //
 //	int length;
 //
-//	cout << "Введите длинну массива: ";
+//	cout << "Р’РІРµРґРёС‚Рµ РґР»РёРЅРЅСѓ РјР°СЃСЃРёРІР°: ";
 //	cin >> length;
 //
-//	elementType* arrayA; // - массив А
+//	elementType* arrayA; // - РјР°СЃСЃРёРІ Рђ
 //	try
 //	{
 //		arrayA = new elementType[length + 1];
@@ -32,13 +32,13 @@
 //		return 1;
 //	}
 //	
-//	// заполняем и выводим массив:
-//	cout << "Изначальный массив: " << endl;
+//	// Р·Р°РїРѕР»РЅСЏРµРј Рё РІС‹РІРѕРґРёРј РјР°СЃСЃРёРІ:
+//	cout << "РР·РЅР°С‡Р°Р»СЊРЅС‹Р№ РјР°СЃСЃРёРІ: " << endl;
 //	arrayFillingAndInput(arrayA, length);
 //	cout << endl;
 //
-//	// Выводим массив в нужном порядке:
-//	cout << "Массив в нужном порядке(A1, A2, AN, AN–1, A3, A4, AN–2, AN–3, ...): " << endl;
+//	// Р’С‹РІРѕРґРёРј РјР°СЃСЃРёРІ РІ РЅСѓР¶РЅРѕРј РїРѕСЂСЏРґРєРµ:
+//	cout << "РњР°СЃСЃРёРІ РІ РЅСѓР¶РЅРѕРј РїРѕСЂСЏРґРєРµ(A1, A2, AN, ANвЂ“1, A3, A4, ANвЂ“2, ANвЂ“3, ...): " << endl;
 //	arraySpecialInput(arrayA, length);
 //	cout << endl;
 //
